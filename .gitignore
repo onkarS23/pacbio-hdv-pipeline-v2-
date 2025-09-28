@@ -1,0 +1,31 @@
+# Large reference files (must be downloaded separately)
+data/hg38.fa*
+
+# Large data files
+*.sam
+*.bam
+*.bai
+test_input/*.fastq
+!test_input/*.fastq.gz
+
+# Results directories
+*results*/
+work/
+.nextflow/
+test_rvhaplo_manual/
+
+# Log files
+*.log*
+*.out
+*.err
+*.html
+trace.txt
+flow.dot
+report.html
+
+# Backup and temporary files
+*.backup
+*(*).nf
+*(*).md
+*.tmp
+*.temp

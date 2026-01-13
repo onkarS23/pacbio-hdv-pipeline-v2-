@@ -1,5 +1,19 @@
 # PacBio HDV Analysis Pipeline v2.0
 
+> **🆕 Version 2.0 Updates:**
+> - ✅ Fixed medaka dependency (v1.11.0+ - resolves numpy conflicts)
+> - ✅ Added OpenJDK 17 for Nextflow
+> - ✅ HPC-ready with SLURM/PBS support
+> - ✅ Tested and optimized for cluster environments
+>
+> **📘 HPC Users (Recommended):** See [HPC_SETUP.md](HPC_SETUP.md) for streamlined setup guide
+>
+> **💻 WSL/Local Users:** If running on Windows WSL or systems with limited RAM (<16GB), use `wsl.config` for reduced memory requirements
+
+---
+
+# PacBio HDV Analysis Pipeline v2.0
+
 A comprehensive Nextflow pipeline for analyzing Hepatitis Delta Virus (HDV) from PacBio HiFi sequencing data, including haplotype reconstruction using RVHaplo.
 
 ## Features
